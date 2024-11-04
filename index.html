@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Search</title>
+    <style>
+        table {
+            margin: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center">Enter the terms to be searched</h1>
+    <form action="process.php" method="POST" style="text-align: center">
+        <input type="text" id="input" name="input" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
